@@ -100,7 +100,7 @@ public class UtilDigitalDoc {
 	 try {	
 		 MailService mailService = MailServiceFactory.getMailService();
 		 MailService.Message message = new MailService.Message();
-		 message.setSender("gruposercatrans@gmail.com");
+		 message.setSender("garceray.online@gmail.com");
 		
 		 /*
 		  * <html><body>Adjuntamos factura</body></html>
@@ -118,11 +118,11 @@ public class UtilDigitalDoc {
 		 }			 
 		 //correos.add(email);
 		 message.setTo(correos);
-		 if(copiaConta){
+		/* if(copiaConta){
 			 message.setCc("contabilidad@sercatrans.com");
 		 }else{
 			 message.setCc("info@sercatrans.com");
-		 }
+		 }*/
 		 
 		 if(attachmentBytes != null){
 			 MailService.Attachment attachment=new MailService.Attachment(attachmentName,attachmentBytes);
@@ -146,7 +146,7 @@ public class UtilDigitalDoc {
 		 try {	
 			 MailService mailService = MailServiceFactory.getMailService();
 			 MailService.Message message = new MailService.Message();
-			 message.setSender("gruposercatrans@gmail.com");
+			 message.setSender("garceray.online@gmail.com");
 			 message.setSubject(subject.toString());
 			 
 			 List<String> correos = new ArrayList<String>();
@@ -158,11 +158,11 @@ public class UtilDigitalDoc {
 			 }			 
 			 //correos.add(email);
 			 message.setTo(correos);
-			 if(copiaConta){
+			/* if(copiaConta){
 				 message.setCc("contabilidad@sercatrans.com");
 			 }else{
 				 message.setCc("info@sercatrans.com");
-			 }
+			 }*/
 			 
 			 if(ficheros != null){
 				 List<MailService.Attachment> attachments = new ArrayList<>();
