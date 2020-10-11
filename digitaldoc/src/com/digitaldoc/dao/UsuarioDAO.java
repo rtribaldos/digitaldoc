@@ -20,8 +20,8 @@ public class UsuarioDAO {
 	
 	public static void creaAdmin(PersistenceManager pm) throws Exception{
 		Usuario usuario = new Usuario();
-		usuario.setEmail("superadmin@sercatrans.com");
-		usuario.setPassword("Manuje2000");
+		usuario.setEmail("admin@garceray.com");
+		usuario.setPassword("TGarcerai1972");
 		usuario.setActivo(true);		
 		usuario.setPerfil("SuperAdmin");
 		pm.makePersistent(usuario);
