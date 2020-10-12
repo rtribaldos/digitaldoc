@@ -50,7 +50,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="green" data-image="assets/img/garceray/logo_transparente.png">
+    <div class="sidebar" data-color="green" data-image="assets/img/garceray/logo_camion_color.png">
 
     <!--
 
